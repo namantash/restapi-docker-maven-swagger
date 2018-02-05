@@ -1,0 +1,4 @@
+**/pom.xml
+**/*Controller.java
+**/configuration/SwaggerDocumentationConfig.java
+**/swagger/Swagger2SpringBoot.java
