@@ -1,17 +1,17 @@
-package com.easols.demo.api;
+package demo.api;
 
-import com.easols.demo.api.model.NewPet;
-import com.easols.demo.api.model.Pet;
+import demo.api.model.NewPet;
+import demo.api.model.Pet;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
 
 /**
  * @author: Askhat Salikhov
  */
-@RestController
+@Controller
 public class ApiController implements PetsApi {
     @Override
     public ResponseEntity<Pet> addPet(NewPet pet) {

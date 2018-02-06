@@ -1,4 +1,4 @@
-package com.easols.demo.api;
+package demo.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
